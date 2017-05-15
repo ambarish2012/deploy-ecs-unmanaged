@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "node-app",
-            "image": "${IMAGE_NAME}",
+            "image": "${DEPLOYECSUNMANAGEDIMAGE_SOURCENAME/DEPLOYECSUNMANAGEDIMAGE_VERSIONNAME}",
 
             "portMappings": [
                 {
