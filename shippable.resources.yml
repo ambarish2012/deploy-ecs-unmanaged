@@ -26,3 +26,5 @@ resources:
     flags:
       - deploy-ecs-unmanaged
     integration: dr-aws
+    pointer:
+      region: us-east-1
