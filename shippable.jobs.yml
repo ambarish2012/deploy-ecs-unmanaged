@@ -8,7 +8,7 @@ jobs:
         switch: off
       - TASK:
         - script: aws ecs list-clusters
-        - script: shippable_replace DEPLOYECSUNMANAGEDREPO_STATE/taskDefinitions/sampleTaskDef.json
+        - script: shippable_replace ${DEPLOYECSUNMANAGEDREPO_STATE}/taskDefinitions/sampleTaskDef.json
         - script: aws ecs register-task-definition --cli-input-json file://${DEPLOYECSUNMANAGEDREPO_STATE}/taskDefinitions/sampleTaskDef.json > output.json
         - script: REVISION=$(cat output.json | jq '.taskDefinition.revision')
         - script: echo "revision is $REVISION"
