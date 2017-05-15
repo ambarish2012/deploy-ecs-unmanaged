@@ -13,7 +13,7 @@ resources:
     type: gitRepo
     flags:
       - deploy-ecs-unmanaged
-    integration: dr-gh
+    integration: dr-github
     pointer:
       sourceName: devops-recipes/deploy-ecs-unmanaged
       branches:
