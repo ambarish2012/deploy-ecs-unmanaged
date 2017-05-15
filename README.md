@@ -1,6 +1,6 @@
 # Deploy a Node.js application to Amazon ECS
 
-[![Run Status](https://api.shippable.com/projects/58f6fcddd1780a07007bba3f/badge?branch=master)](https://app.shippable.com/github/devops-recipes/deploy-ecs-basic) [![Coverage Badge](https://api.shippable.com/projects/58f6fcddd1780a07007bba3f/coverageBadge?branch=master)](https://app.shippable.com/github/devops-recipes/deploy-ecs-basic)
+[![Run Status](https://api.shippable.com/projects/591920dcc8458b0700d166f7/badge?branch=master)](https://app.shippable.com/github/devops-recipes/deploy-ecs-unmanaged) [![Coverage Badge](https://api.shippable.com/projects/591920dcc8458b0700d166f7/coverageBadge?branch=master)](https://app.shippable.com/github/devops-recipes/deploy-ecs-unmanaged)
 
 ![AyeAye](https://github.com/devops-recipes/deploy-ecs-unmanaged/blob/master/public/resources/images/captain.png)
 
@@ -19,7 +19,7 @@ A simple Node JS application with unit tests and coverage reports using mocha an
 ## CI Reports on Shippable
 
 ### CI Integration View
-![CI Integration View](https://github.com/devops-recipes/deploy-ecs-basic/blob/master/public/resources/images/integration-creation.png)
+![CI Integration View](https://github.com/devops-recipes/deploy-ecs-unmanaged/blob/master/public/resources/images/integration-creation.png)
 
 ### CI Console Output
-![CI Console Output](https://github.com/devops-recipes/deploy-ecs-basic/blob/master/public/resources/images/console.jpg)
+![CI Console Output](https://github.com/devops-recipes/deploy-ecs-unmanaged/blob/master/public/resources/images/console.jpg)
