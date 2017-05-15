@@ -1,0 +1,7 @@
+{
+    "cluster": "deploy-ecs-basic",
+    "serviceName": "unmanaged-service",
+    "taskDefinition": "",  
+    "desiredCount": 1,
+
+}
