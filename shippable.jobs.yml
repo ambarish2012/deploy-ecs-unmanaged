@@ -1,6 +1,6 @@
 jobs:
   - name: deploy-ecs-unmanaged-cli
-    type: runCLI
+    type: runSh
     steps:
       - IN: deploy-ecs-unmanaged-config
       - IN: deploy-ecs-unmanaged-repo
